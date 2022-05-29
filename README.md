@@ -8,3 +8,10 @@ so that they can be prepared e.g. bring an umbrella if rain is generated as the 
 or whichever city they are in. 
 
 * If the city does not exist (not found), an appropriate error is returned to the user
+
+* In order to run the code, the user must create a file called api_secret.ini (emphasis on not storing this in version control software for security reasons) with the content:
+> ; api_secret.ini
+>  [openweathermap]
+>  owm_api_key=<api-key>
+
+* This gives the user access to the openweather api.
