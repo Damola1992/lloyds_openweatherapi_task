@@ -11,7 +11,9 @@ or whichever city they are in.
 
 * In order to run the code, the user must create a file called api_secret.ini (emphasis on not storing this in version control software for security reasons) with the content:
 > ; api_secret.ini
->  [openweathermap]
->  owm_api_key=<api-key>
+>
+> [openweathermap]
+>
+> owm_api_key={your-api-key}
 
 * This gives the user access to the openweather api.
